@@ -1,0 +1,19 @@
+DEFINT A-Z
+SCREEN 13
+CLS
+RANDOMIZE TIMER
+
+DO
+
+  X = INT(RND * 320)
+  Y = INT(RND * 240)
+  C = INT(RND * 255)
+
+  PSET (X, Y), C
+
+  WHILE INKEY$ <> ""
+    EXIT DO
+  WEND
+
+LOOP
+
