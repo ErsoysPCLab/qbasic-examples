@@ -16,4 +16,3 @@ POKE 7, 4
 
 POKE 8, ASC("m")
 POKE 9, 5
-
