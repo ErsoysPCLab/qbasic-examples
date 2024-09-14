@@ -1,0 +1,3 @@
+FOR X = 1 TO 100
+    LPRINT "TEST", CHR$(10), CHR$(13)
+NEXT X
