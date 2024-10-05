@@ -17,4 +17,3 @@ LPRINT CHR$(12)
 PRINT "Test data has been sended to the printer!"
 
 END
-
